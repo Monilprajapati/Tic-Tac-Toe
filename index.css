@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  height: 100vh;
+  padding-top: 1px;
+}
+
+.title {
+  color: #000000;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  margin-top: 8%;
+}
+
+.display {
+  color: #0b2447;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: grid;
+  /* grid-template-columns: 33% 33% 33%; */
+  grid-template-columns: 100px 100px 100px;
+  max-width: 300px;
+}
+
+.block {
+  background-image: linear-gradient(120deg, #fdfbfb 50%, #ebedee 100%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 2px solid #0b2447;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Itim", cursive;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.playerX {
+  color: blue;
+  font-family: "Itim", cursive;
+  font-weight: bold;
+}
+
+.playerO {
+  color: red;
+  font-family: "Itim", cursive;
+  font-weight: bold;
+}
+
+.display .announcer {
+  margin-bottom: 0.25em;
+  margin: 100px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.controls button {
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 8px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1em;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+}
+
+.controls button::after {
+  margin-top: 0.25em;
+}
+
+.restart {
+  background-color: #498afb;
+}
+
+#reset {
+  color: white;
+  background-color: #3E54AC;
+  margin: 0;
+}
+
+#reset:hover{
+  color: #3E54AC ;
+  background-color: white;
+  margin: 0;
+}
